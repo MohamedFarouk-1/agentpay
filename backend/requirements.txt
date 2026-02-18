@@ -1,0 +1,33 @@
+# FastAPI and Server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.12.1
+asyncpg==0.29.0  # For async PostgreSQL
+aiosqlite==0.19.0  # For async SQLite (dev)
+
+# Web3 and Blockchain
+web3==6.11.3
+eth-account==0.10.0
+eth-utils==2.3.1
+
+# Security and Auth
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-dotenv==1.0.0
+
+# CORS
+fastapi-cors==0.0.6
+
+# Utilities
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dateutil==2.8.2
+
+# Testing (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.1

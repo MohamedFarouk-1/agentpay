@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Environment variables - NEVER commit real keys
+.env
+.env.local
+.env.*.local
+
+# Hardhat / Solidity build artifacts
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+.nyc_output/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Frontend build output
+dist/
+dist-ssr/
+
+# Deployment artifacts
+deployments/
+*.deployment.txt

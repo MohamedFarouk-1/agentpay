@@ -1,0 +1,52 @@
+{
+  "name": "agent-payment-vault",
+  "version": "1.0.0",
+  "description": "AI agent payment system that lets crypto trading bots automatically purchase services",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "test:coverage": "hardhat coverage",
+    "clean": "hardhat clean",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost",
+    "deploy:base-sepolia": "hardhat run scripts/deploy.js --network base-sepolia",
+    "deploy:base": "hardhat run scripts/deploy.js --network base",
+    "deploy:arbitrum-sepolia": "hardhat run scripts/deploy.js --network arbitrum-sepolia",
+    "deploy:arbitrum": "hardhat run scripts/deploy.js --network arbitrum",
+    "node": "hardhat node",
+    "verify": "hardhat verify"
+  },
+  "keywords": [
+    "ethereum",
+    "hardhat",
+    "solidity",
+    "smart-contracts",
+    "ai-agents",
+    "crypto",
+    "payment",
+    "defi"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": ">=9.1.0",
+    "chai": "^4.2.0",
+    "hardhat": "^2.19.0",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.0",
+    "typechain": "^8.3.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.3",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0"
+  }
+}
