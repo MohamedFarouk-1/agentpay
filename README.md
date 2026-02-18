@@ -2,6 +2,8 @@
 
 An on-chain payment infrastructure that lets AI agents autonomously purchase services on behalf of funds. Funds deposit USDC into a vault, authorize agents (trading bots), and set spending limits — agents then make purchases within those limits without further manual approval.
 
+![AgentPay Landing Page](docs/screenshot.png)
+
 ## Architecture
 
 ```
